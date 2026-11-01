@@ -68,14 +68,6 @@ Hi, I'm **Ali Raza** — a **Full Stack Developer** from Pakistan who builds int
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AliRazaWarya&bg_color=0B1020&color=F1F5F9&line=22D3EE&point=A78BFA&area=true&hide_border=true" alt="Ali Raza's contribution graph" width="100%" />
 </div>
 
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AliRazaWarya/AliRazaWarya/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AliRazaWarya/AliRazaWarya/output/github-contribution-grid-snake.svg">
-  <img alt="Ali Raza's contribution snake" src="https://raw.githubusercontent.com/AliRazaWarya/AliRazaWarya/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
-
 <details>
 <summary><b>📌 More about me (click to expand)</b></summary>
 
