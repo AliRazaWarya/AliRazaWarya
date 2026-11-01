@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Ali Raza — AI/ML Engineer, Full-Stack Developer, Data Analyst">
+  <defs>
+    <linearGradient id="ali-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="55%" stop-color="#190B12"/>
+      <stop offset="100%" stop-color="#451126"/>
+    </linearGradient>
+    <linearGradient id="ali-rose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C77B9B"/>
+      <stop offset="100%" stop-color="#E5B5C7"/>
+    </linearGradient>
+    <linearGradient id="ali-sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C77B9B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="ali-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#701A3D" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="ali-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#ali-bg)"/>
+  <rect width="1200" height="320" fill="url(#ali-grid)"/>
+
+  <!-- Moving light sweep (static gradient remains if motion is unsupported) -->
+  <rect width="500" height="320" fill="url(#ali-sweep)">
+    <animate attributeName="x" values="-500;1200;-500" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Restrained orbital geometry -->
+  <g fill="none" stroke="#C77B9B" stroke-opacity="0.5">
+    <ellipse cx="1010" cy="150" rx="130" ry="52"/>
+    <ellipse cx="1010" cy="150" rx="90" ry="90" stroke-opacity="0.25"/>
+  </g>
+  <circle r="7" fill="#E5B5C7">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M 1010 150 m -130 0 a 130 52 0 1 0 260 0 a 130 52 0 1 0 -260 0"/>
+  </circle>
+
+  <!-- Animated drawn path -->
+  <path d="M 90 250 C 260 190, 380 280, 560 225 S 880 200, 1110 235" fill="none" stroke="#C77B9B" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 10" opacity="0.8">
+    <animate attributeName="stroke-dashoffset" values="0;-160" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Name and role -->
+  <text x="90" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" fill="#F8F0F3" letter-spacing="2">Ali Raza</text>
+  <text x="92" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="27" fill="#E5B5C7" letter-spacing="1">AI/ML Engineer | Full-Stack Developer | Data Analyst</text>
+  <rect x="92" y="208" width="300" height="4" rx="2" fill="url(#ali-rose)" filter="url(#ali-glow)"/>
+  <text x="92" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#F8F0F3" opacity="0.85">Building intelligent web apps &amp; data-driven solutions</text>
+</svg>

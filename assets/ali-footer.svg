@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" role="img" aria-label="Decorative footer divider">
+  <defs>
+    <linearGradient id="ali-foot" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C77B9B"/>
+      <stop offset="100%" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="60" fill="none"/>
+  <line x1="120" y1="30" x2="1080" y2="30" stroke="url(#ali-foot)" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 12">
+    <animate attributeName="stroke-dashoffset" values="0;-160" dur="8s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="600" cy="30" r="5" fill="#E5B5C7"/>
+</svg>
