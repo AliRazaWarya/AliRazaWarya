@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Ali Raza — Full Stack Developer">
+  <defs>
+    <linearGradient id="cy-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="cy-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="cy-orb-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cy-orb-violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cy-grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.14"/>
+    </pattern>
+    <filter id="cy-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" fill="url(#cy-bg)"/>
+  <rect width="1200" height="340" fill="url(#cy-grid)"/>
+
+  <!-- Drifting neon orbs -->
+  <circle cx="220" cy="120" r="150" fill="url(#cy-orb-cyan)">
+    <animate attributeName="cx" values="220;420;220" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="220" r="170" fill="url(#cy-orb-violet)">
+    <animate attributeName="cy" values="220;120;220" dur="19s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Orbit rings, right side -->
+  <g fill="none" stroke="#22D3EE" stroke-opacity="0.55">
+    <ellipse cx="1020" cy="160" rx="140" ry="58"/>
+    <ellipse cx="1020" cy="160" rx="95" ry="95" stroke="#A78BFA" stroke-opacity="0.35"/>
+  </g>
+  <circle r="8" fill="#22D3EE">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M 1020 160 m -140 0 a 140 58 0 1 0 280 0 a 140 58 0 1 0 -280 0"/>
+  </circle>
+  <circle r="6" fill="#A78BFA">
+    <animateMotion dur="12s" repeatCount="indefinite" path="M 1020 160 m -95 0 a 95 95 0 1 0 190 0 a 95 95 0 1 0 -190 0"/>
+  </circle>
+
+  <!-- Animated data path -->
+  <path d="M 80 285 C 280 230, 420 300, 640 255 S 980 240, 1130 270" fill="none" stroke="url(#cy-line)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 12" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" values="0;-200" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Status pill -->
+  <g>
+    <rect x="90" y="52" width="300" height="34" rx="17" fill="#111827" stroke="#4ADE80" stroke-opacity="0.6"/>
+    <circle cx="112" cy="69" r="7" fill="#4ADE80">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="130" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="17" fill="#F1F5F9">Available for remote roles</text>
+  </g>
+
+  <!-- Name and title -->
+  <text x="88" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="78" font-weight="bold" fill="#F1F5F9" letter-spacing="1">Ali Raza</text>
+  <text x="90" y="212" font-family="'Fira Code', monospace" font-size="30" font-weight="bold" fill="#22D3EE" letter-spacing="4">FULL STACK DEVELOPER</text>
+  <rect x="90" y="232" width="380" height="5" rx="2.5" fill="url(#cy-line)" filter="url(#cy-glow)"/>
+  <text x="90" y="272" font-family="'Segoe UI', Arial, sans-serif" font-size="21" fill="#94A3B8">AI/ML Engineer  •  Data Analyst  •  Python  •  SQL  •  Web</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="ft-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="70" fill="none"/>
+  <line x1="120" y1="22" x2="1080" y2="22" stroke="url(#ft-line)" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 12">
+    <animate attributeName="stroke-dashoffset" values="0;-160" dur="7s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="600" cy="22" r="5" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="55" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="17" fill="#94A3B8">Thanks for visiting — let's build something great</text>
+</svg>
