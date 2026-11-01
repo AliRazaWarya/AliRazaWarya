@@ -57,15 +57,14 @@ Hi, I'm **Ali Raza** — a **Full Stack Developer** from Pakistan who builds int
 | Predictive Analytics | Data-driven forecasting and analysis | Python, SQL |
 | Programmer's Den Website | Professional website for a software house | Web |
 
-## 📊 GitHub Stats
+## 📈 GitHub Journey
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AliRazaWarya&show_icons=true&theme=transparent&title_color=22D3EE&text_color=F1F5F9&icon_color=A78BFA&bg_color=0B1020&hide_border=true" alt="Ali Raza's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliRazaWarya&layout=compact&title_color=22D3EE&text_color=F1F5F9&bg_color=0B1020&hide_border=true" alt="Ali Raza's most used languages" />
+  <img src="assets/stats-divider.svg" alt="" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AliRazaWarya&bg_color=0B1020&color=F1F5F9&line=22D3EE&point=A78BFA&area=true&hide_border=true" alt="Ali Raza's contribution graph" width="100%" />
+  <img src="assets/journey.svg" alt="Ali Raza's GitHub journey: 2022 GitHub start, 12 public repositories, 2025-26 AI/ML Intern at IAXON, 2026 BS Computer Science, now Full Stack Developer" width="100%" />
 </div>
 
 <details>

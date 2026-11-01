@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44" role="img" aria-label="Animated divider">
+  <defs>
+    <linearGradient id="dv-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#22D3EE"/>
+      <stop offset="75%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="44" fill="none"/>
+  <line x1="80" y1="22" x2="1120" y2="22" stroke="url(#dv-line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 14">
+    <animate attributeName="stroke-dashoffset" values="0;-200" dur="6s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="300" cy="22" r="6" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="22" r="6" fill="#A78BFA">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="22" r="6" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
