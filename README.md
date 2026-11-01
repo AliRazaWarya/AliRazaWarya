@@ -95,6 +95,12 @@ Hi, I'm **Ali Raza** — a **Full Stack Developer** from Pakistan who builds int
 
 > 💡 I build custom machine learning and deep learning models — check out my work and get in touch!
 
+## 🟢 Contribution Activity
+
+<div align="center">
+  <img src="assets/contrib-strip.svg" alt="Contribution activity: 42 contributions in the last year" width="100%" />
+</div>
+
 <div align="center">
   <img src="assets/footer-cyber.svg" alt="" width="100%" />
 </div>
